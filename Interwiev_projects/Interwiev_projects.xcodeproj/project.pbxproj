@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACD104B11EFE8CA700CF04E2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACD104B01EFE8CA700CF04E2 /* main.c */; };
+		ACD104B11EFE8CA700CF04E2 /* djeljiv.c in Sources */ = {isa = PBXBuildFile; fileRef = ACD104B01EFE8CA700CF04E2 /* djeljiv.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		ACD104AD1EFE8CA600CF04E2 /* Interwiev_projects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interwiev_projects; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACD104B01EFE8CA700CF04E2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ACD104B01EFE8CA700CF04E2 /* djeljiv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = djeljiv.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		ACD104AF1EFE8CA600CF04E2 /* Interwiev_projects */ = {
 			isa = PBXGroup;
 			children = (
-				ACD104B01EFE8CA700CF04E2 /* main.c */,
+				ACD104B01EFE8CA700CF04E2 /* djeljiv.c */,
 			);
 			path = Interwiev_projects;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD104B11EFE8CA700CF04E2 /* main.c in Sources */,
+				ACD104B11EFE8CA700CF04E2 /* djeljiv.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +251,7 @@
 				ACD104B61EFE8CA700CF04E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
