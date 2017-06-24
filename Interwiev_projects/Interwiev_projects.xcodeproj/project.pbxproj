@@ -41,7 +41,7 @@
 		ACD104A41EFE8CA600CF04E2 = {
 			isa = PBXGroup;
 			children = (
-				ACD104AF1EFE8CA600CF04E2 /* Interwiev_projects */,
+				ACD104AF1EFE8CA600CF04E2 /* prvi_project */,
 				ACD104AE1EFE8CA600CF04E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,11 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACD104AF1EFE8CA600CF04E2 /* Interwiev_projects */ = {
+		ACD104AF1EFE8CA600CF04E2 /* prvi_project */ = {
 			isa = PBXGroup;
 			children = (
 				ACD104B01EFE8CA700CF04E2 /* djeljiv.c */,
 			);
+			name = prvi_project;
 			path = Interwiev_projects;
 			sourceTree = "<group>";
 		};
