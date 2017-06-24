@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ACD104B11EFE8CA700CF04E2 /* djeljiv.c in Sources */ = {isa = PBXBuildFile; fileRef = ACD104B01EFE8CA700CF04E2 /* djeljiv.c */; };
+		AC4EB1C51EFEA0740043BDF9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4EB1C41EFEA0740043BDF9 /* main.c */; };
+		ACD104B11EFE8CA700CF04E2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACD104B01EFE8CA700CF04E2 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AC4EB1C01EFEA0740043BDF9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		ACD104AB1EFE8CA600CF04E2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +33,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AC4EB1C21EFEA0740043BDF9 /* drugi_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = drugi_project; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4EB1C41EFEA0740043BDF9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		ACD104AD1EFE8CA600CF04E2 /* Interwiev_projects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interwiev_projects; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACD104B01EFE8CA700CF04E2 /* djeljiv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = djeljiv.c; sourceTree = "<group>"; };
+		ACD104B01EFE8CA700CF04E2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AC4EB1BF1EFEA0740043BDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACD104AA1EFE8CA600CF04E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4EB1C31EFEA0740043BDF9 /* drugi_project */ = {
+			isa = PBXGroup;
+			children = (
+				AC4EB1C41EFEA0740043BDF9 /* main.c */,
+			);
+			path = drugi_project;
+			sourceTree = "<group>";
+		};
 		ACD104A41EFE8CA600CF04E2 = {
 			isa = PBXGroup;
 			children = (
 				ACD104AF1EFE8CA600CF04E2 /* prvi_project */,
+				AC4EB1C31EFEA0740043BDF9 /* drugi_project */,
 				ACD104AE1EFE8CA600CF04E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				ACD104AD1EFE8CA600CF04E2 /* Interwiev_projects */,
+				AC4EB1C21EFEA0740043BDF9 /* drugi_project */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +86,7 @@
 		ACD104AF1EFE8CA600CF04E2 /* prvi_project */ = {
 			isa = PBXGroup;
 			children = (
-				ACD104B01EFE8CA700CF04E2 /* djeljiv.c */,
+				ACD104B01EFE8CA700CF04E2 /* main.c */,
 			);
 			name = prvi_project;
 			path = Interwiev_projects;
@@ -66,6 +95,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AC4EB1C11EFEA0740043BDF9 /* drugi_project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4EB1C61EFEA0740043BDF9 /* Build configuration list for PBXNativeTarget "drugi_project" */;
+			buildPhases = (
+				AC4EB1BE1EFEA0740043BDF9 /* Sources */,
+				AC4EB1BF1EFEA0740043BDF9 /* Frameworks */,
+				AC4EB1C01EFEA0740043BDF9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = drugi_project;
+			productName = drugi_project;
+			productReference = AC4EB1C21EFEA0740043BDF9 /* drugi_project */;
+			productType = "com.apple.product-type.tool";
+		};
 		ACD104AC1EFE8CA600CF04E2 /* Interwiev_projects */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACD104B41EFE8CA700CF04E2 /* Build configuration list for PBXNativeTarget "Interwiev_projects" */;
@@ -92,6 +138,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Mario Krajačić";
 				TargetAttributes = {
+					AC4EB1C11EFEA0740043BDF9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 633JQL2EL2;
+						ProvisioningStyle = Automatic;
+					};
 					ACD104AC1EFE8CA600CF04E2 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 633JQL2EL2;
@@ -112,22 +163,47 @@
 			projectRoot = "";
 			targets = (
 				ACD104AC1EFE8CA600CF04E2 /* Interwiev_projects */,
+				AC4EB1C11EFEA0740043BDF9 /* drugi_project */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AC4EB1BE1EFEA0740043BDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4EB1C51EFEA0740043BDF9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACD104A91EFE8CA600CF04E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD104B11EFE8CA700CF04E2 /* djeljiv.c in Sources */,
+				ACD104B11EFE8CA700CF04E2 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		AC4EB1C71EFEA0740043BDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 633JQL2EL2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC4EB1C81EFEA0740043BDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 633JQL2EL2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		ACD104B21EFE8CA700CF04E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -236,6 +312,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AC4EB1C61EFEA0740043BDF9 /* Build configuration list for PBXNativeTarget "drugi_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4EB1C71EFEA0740043BDF9 /* Debug */,
+				AC4EB1C81EFEA0740043BDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		ACD104A81EFE8CA600CF04E2 /* Build configuration list for PBXProject "Interwiev_projects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
