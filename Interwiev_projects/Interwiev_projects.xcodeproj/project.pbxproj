@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC02B0181F02FC2E000213B4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC02B0171F02FC2E000213B4 /* main.c */; };
 		AC4EB1C51EFEA0740043BDF9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4EB1C41EFEA0740043BDF9 /* main.c */; };
 		ACD104B11EFE8CA700CF04E2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACD104B01EFE8CA700CF04E2 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AC02B0131F02FC2D000213B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		AC4EB1C01EFEA0740043BDF9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AC02B0151F02FC2D000213B4 /* treci_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = treci_project; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC02B0171F02FC2E000213B4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AC4EB1C21EFEA0740043BDF9 /* drugi_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = drugi_project; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4EB1C41EFEA0740043BDF9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		ACD104AD1EFE8CA600CF04E2 /* Interwiev_projects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interwiev_projects; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AC02B0121F02FC2D000213B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC4EB1BF1EFEA0740043BDF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC02B0161F02FC2E000213B4 /* treci_project */ = {
+			isa = PBXGroup;
+			children = (
+				AC02B0171F02FC2E000213B4 /* main.c */,
+			);
+			path = treci_project;
+			sourceTree = "<group>";
+		};
 		AC4EB1C31EFEA0740043BDF9 /* drugi_project */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +97,7 @@
 			children = (
 				ACD104AF1EFE8CA600CF04E2 /* prvi_project */,
 				AC4EB1C31EFEA0740043BDF9 /* drugi_project */,
+				AC02B0161F02FC2E000213B4 /* treci_project */,
 				ACD104AE1EFE8CA600CF04E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +107,7 @@
 			children = (
 				ACD104AD1EFE8CA600CF04E2 /* Interwiev_projects */,
 				AC4EB1C21EFEA0740043BDF9 /* drugi_project */,
+				AC02B0151F02FC2D000213B4 /* treci_project */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +124,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AC02B0141F02FC2D000213B4 /* treci_project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC02B01B1F02FC2E000213B4 /* Build configuration list for PBXNativeTarget "treci_project" */;
+			buildPhases = (
+				AC02B0111F02FC2D000213B4 /* Sources */,
+				AC02B0121F02FC2D000213B4 /* Frameworks */,
+				AC02B0131F02FC2D000213B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = treci_project;
+			productName = treci_project;
+			productReference = AC02B0151F02FC2D000213B4 /* treci_project */;
+			productType = "com.apple.product-type.tool";
+		};
 		AC4EB1C11EFEA0740043BDF9 /* drugi_project */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC4EB1C61EFEA0740043BDF9 /* Build configuration list for PBXNativeTarget "drugi_project" */;
@@ -138,6 +184,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Mario Krajačić";
 				TargetAttributes = {
+					AC02B0141F02FC2D000213B4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 633JQL2EL2;
+						ProvisioningStyle = Automatic;
+					};
 					AC4EB1C11EFEA0740043BDF9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 633JQL2EL2;
@@ -164,11 +215,20 @@
 			targets = (
 				ACD104AC1EFE8CA600CF04E2 /* Interwiev_projects */,
 				AC4EB1C11EFEA0740043BDF9 /* drugi_project */,
+				AC02B0141F02FC2D000213B4 /* treci_project */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AC02B0111F02FC2D000213B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC02B0181F02FC2E000213B4 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC4EB1BE1EFEA0740043BDF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,6 +248,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		AC02B0191F02FC2E000213B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 633JQL2EL2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC02B01A1F02FC2E000213B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 633JQL2EL2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		AC4EB1C71EFEA0740043BDF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -312,6 +388,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AC02B01B1F02FC2E000213B4 /* Build configuration list for PBXNativeTarget "treci_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC02B0191F02FC2E000213B4 /* Debug */,
+				AC02B01A1F02FC2E000213B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		AC4EB1C61EFEA0740043BDF9 /* Build configuration list for PBXNativeTarget "drugi_project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -319,6 +403,7 @@
 				AC4EB1C81EFEA0740043BDF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACD104A81EFE8CA600CF04E2 /* Build configuration list for PBXProject "Interwiev_projects" */ = {
 			isa = XCConfigurationList;
