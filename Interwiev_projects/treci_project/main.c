@@ -21,7 +21,7 @@ int main(void){
 }
 int funkcija_podniz(int *na_niz, int duljina){
     //pomak kroz niz jedan po jedan clan da postane pocetni
-    for(int brojac=0;brojac<=duljina;++brojac){
+    for(int brojac=0;brojac<duljina;++brojac){
         int suma=0;
         //sumiranje od zadanog clana jedan po jedan, ako je nula odmah return 1
         for(int brojac_nutarnji=brojac;brojac_nutarnji<=duljina;++brojac_nutarnji){
