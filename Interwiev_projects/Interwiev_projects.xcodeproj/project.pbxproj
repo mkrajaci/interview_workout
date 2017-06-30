@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		AC02B0181F02FC2E000213B4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC02B0171F02FC2E000213B4 /* main.c */; };
+		AC17745E1F06C6C4003BAB10 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC17745D1F06C6C4003BAB10 /* main.c */; };
 		AC4EB1C51EFEA0740043BDF9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AC4EB1C41EFEA0740043BDF9 /* main.c */; };
 		ACD104B11EFE8CA700CF04E2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ACD104B01EFE8CA700CF04E2 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		AC02B0131F02FC2D000213B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		AC1774591F06C6C4003BAB10 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -45,6 +55,8 @@
 /* Begin PBXFileReference section */
 		AC02B0151F02FC2D000213B4 /* treci_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = treci_project; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC02B0171F02FC2E000213B4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		AC17745B1F06C6C4003BAB10 /* cetvrti_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cetvrti_project; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC17745D1F06C6C4003BAB10 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AC4EB1C21EFEA0740043BDF9 /* drugi_project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = drugi_project; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4EB1C41EFEA0740043BDF9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		ACD104AD1EFE8CA600CF04E2 /* Interwiev_projects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interwiev_projects; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +65,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC02B0121F02FC2D000213B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1774581F06C6C4003BAB10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,6 +103,14 @@
 			path = treci_project;
 			sourceTree = "<group>";
 		};
+		AC17745C1F06C6C4003BAB10 /* cetvrti_project */ = {
+			isa = PBXGroup;
+			children = (
+				AC17745D1F06C6C4003BAB10 /* main.c */,
+			);
+			path = cetvrti_project;
+			sourceTree = "<group>";
+		};
 		AC4EB1C31EFEA0740043BDF9 /* drugi_project */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +125,7 @@
 				ACD104AF1EFE8CA600CF04E2 /* prvi_project */,
 				AC4EB1C31EFEA0740043BDF9 /* drugi_project */,
 				AC02B0161F02FC2E000213B4 /* treci_project */,
+				AC17745C1F06C6C4003BAB10 /* cetvrti_project */,
 				ACD104AE1EFE8CA600CF04E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +136,7 @@
 				ACD104AD1EFE8CA600CF04E2 /* Interwiev_projects */,
 				AC4EB1C21EFEA0740043BDF9 /* drugi_project */,
 				AC02B0151F02FC2D000213B4 /* treci_project */,
+				AC17745B1F06C6C4003BAB10 /* cetvrti_project */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +168,23 @@
 			name = treci_project;
 			productName = treci_project;
 			productReference = AC02B0151F02FC2D000213B4 /* treci_project */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC17745A1F06C6C4003BAB10 /* cetvrti_project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1774611F06C6C4003BAB10 /* Build configuration list for PBXNativeTarget "cetvrti_project" */;
+			buildPhases = (
+				AC1774571F06C6C4003BAB10 /* Sources */,
+				AC1774581F06C6C4003BAB10 /* Frameworks */,
+				AC1774591F06C6C4003BAB10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cetvrti_project;
+			productName = cetvrti_project;
+			productReference = AC17745B1F06C6C4003BAB10 /* cetvrti_project */;
 			productType = "com.apple.product-type.tool";
 		};
 		AC4EB1C11EFEA0740043BDF9 /* drugi_project */ = {
@@ -189,6 +235,11 @@
 						DevelopmentTeam = 633JQL2EL2;
 						ProvisioningStyle = Automatic;
 					};
+					AC17745A1F06C6C4003BAB10 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 633JQL2EL2;
+						ProvisioningStyle = Automatic;
+					};
 					AC4EB1C11EFEA0740043BDF9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 633JQL2EL2;
@@ -216,6 +267,7 @@
 				ACD104AC1EFE8CA600CF04E2 /* Interwiev_projects */,
 				AC4EB1C11EFEA0740043BDF9 /* drugi_project */,
 				AC02B0141F02FC2D000213B4 /* treci_project */,
+				AC17745A1F06C6C4003BAB10 /* cetvrti_project */,
 			);
 		};
 /* End PBXProject section */
@@ -226,6 +278,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC02B0181F02FC2E000213B4 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1774571F06C6C4003BAB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC17745E1F06C6C4003BAB10 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +317,22 @@
 			name = Debug;
 		};
 		AC02B01A1F02FC2E000213B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 633JQL2EL2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC17745F1F06C6C4003BAB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 633JQL2EL2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC1774601F06C6C4003BAB10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 633JQL2EL2;
@@ -393,6 +469,15 @@
 			buildConfigurations = (
 				AC02B0191F02FC2E000213B4 /* Debug */,
 				AC02B01A1F02FC2E000213B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1774611F06C6C4003BAB10 /* Build configuration list for PBXNativeTarget "cetvrti_project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC17745F1F06C6C4003BAB10 /* Debug */,
+				AC1774601F06C6C4003BAB10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
